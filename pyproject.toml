@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arm_converter"
+version = "0.1.0"
+readme = "README.md"
+authors = [
+    {name = "Yiheng Quan", email = "development.henryquan@gmail.com"},
+]
+description = "Convert ARM instructions to machine code"
+keywords = ["arm", "converter", "ios"]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+Homepage = "https://github.com/HenryQuan/ARM-Converter"
